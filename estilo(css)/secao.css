@@ -1,0 +1,209 @@
+/*Seção-Menu*/
+
+.Secao{
+  position: absolute;
+  left: 0%;
+  width:100% ;
+  height: 95%;
+  top:190% ;
+}
+
+.text2{
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 10%;
+  font-family: BebasNeue ;
+  font-size: 25px;
+}
+
+.Secao span{
+  color: #660505;
+}
+
+#angus{
+  position: absolute;
+  height: 72% ;
+  width: 32%;
+  border: black solid 3px;
+  left: 0.7%;
+  top: 70%;
+}
+
+#tempero{
+  position: absolute;
+  height: 72% ;
+  width: 32%;
+  border: black solid 3px;
+  left: 34%;
+  top: 70%;
+}
+
+#Endereco{
+  position: absolute;
+  background-color:#660505 ;
+  align-items: center;
+  left: 67.5%;
+  width: 32%;
+  height: 25%;
+  top: 70%;
+  padding-top: 10px;
+}
+
+#text{
+  color:#ffffff;
+  text-align: center;
+  font-size: 30px;
+  font-family: BebasNeue ;
+}
+
+#text2{
+  color:#ffffff;
+  text-align: center;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Nmenu{
+  position: absolute;
+  background-color:#1a1a1a ;
+  align-items: center;
+  left: 67.5%;
+  width: 32%;
+  height: 41%;
+  top: 100%;
+  padding-top: 10px;
+}
+
+#text3{
+  color:#ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3px;
+}
+
+#btn-menu{
+  position: absolute;
+  left: 33%;
+  top: 70%;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  background-color: #660505;
+  border-color: #aeadad;
+  border-width: 2px;
+  border-style: solid;
+  color: white;
+  font-family: BebasNeue;
+  font-size: 20px;
+  padding-top: 9px;
+}
+#btn-menu:hover{
+  color:#ffffff ;
+  transition: 0.5s;
+  background-color: #383333;
+}
+
+/* Local-contato */
+
+.local-contato{
+  position: absolute;
+  left: 0%;
+  width:100% ;
+  height: 120%;
+  top:333% ;
+}
+
+.picanha{
+  width: 100%;
+  height: 90% ;
+}
+
+.local-maps{
+  position: absolute;
+  width:49% ;
+  height: 70%;
+  left: 1%;
+  top:10% ;
+  background-color: black;
+}
+
+.local-iframe{
+  top: 20% ;
+  left: 20% ;
+}
+
+.contato{
+  position: absolute;
+  width:49% ;
+  height: 70%;
+  left:50%;
+  top:10% ;
+  background-color: #ffffff;
+}
+
+#textcontato{
+  color:#000000;
+  text-align: center;
+  font-size: 60px;
+  font-family: BebasNeue ;
+}
+#textcontato2{
+  color:#000000;
+  text-align: center;
+  font-size: 27px;
+  font-family: BebasNeue ;
+}
+
+.formulario{
+  position: absolute;
+  left: 16%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: black;
+}
+
+input{
+  border: 2px solid black ;
+}
+
+.Mensagem{
+  position: absolute;
+  top: 47%;
+  left: 16%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+textarea{
+  position: absolute;
+  top: 52%;
+  width: 70%;
+  left: 16%;
+  height: 15%;
+  border: 2px solid black ;
+}
+
+#btn-enviar{
+  position: absolute;
+  left: 54%;
+  top: 65%;
+  width: 40%;
+  height: 5%;
+  text-align: center;
+  background-color: #660505;
+  border-color: #aeadad;
+  border-width: 2px;
+  border-style: solid;
+  color: white;
+  font-family: BebasNeue;
+  font-size: 25px;
+  padding-top: 15px;
+}
+#btn-enviar:hover{
+  color:#ffffff ;
+  transition: 0.5s;
+  background-color: #383333;
+}

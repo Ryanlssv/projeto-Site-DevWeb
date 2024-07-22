@@ -1,0 +1,54 @@
+.Sobre{
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  height: 90%;
+  top: 100%;
+  left: 0px;
+  border-top: 10px solid #000000;
+}
+
+.titulo{
+  color:#0d0d0d ;
+  text-align: center;
+  width: 32%;
+  top: 5%;
+  left: 10%;
+  position: absolute;
+  font-family:BebasNeue;;
+  font-size: 60px;
+}
+
+.cortes{
+  position: absolute; 
+  left: 17%; 
+  font-size: 25px; 
+  font-family: BebasNeue; 
+  color: #660505 ;
+  top: 4% ;
+}
+
+.text{
+  left: 3%;
+  width: 50%;
+  height: 30%;
+  top: 40%;
+  position: absolute;
+  font-size: 16px;
+  font-family:sans-serif ;
+  color: #262626; ;
+}
+
+.Carn1{
+  position: absolute;
+  width:28%; 
+  top:10%;
+  left: 65%;
+}
+
+.Carn2{
+  position: absolute;
+  width:30%; 
+  top:50%;
+  left: 55%;
+}
