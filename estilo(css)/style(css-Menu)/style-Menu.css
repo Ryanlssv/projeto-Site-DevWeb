@@ -28,35 +28,32 @@
   border:2px white solid;
 }
 
-.text-menu{
-  left:18%;
-  width: 80%;
-  height: 40%;
-  top: 45%;
-  position: absolute;
-  font-size: 20px;
-  font-family:sans-serif ;
-  color: #ffffff; ;
-}
-
 .Menu-Especialidades-title{
   position: absolute;
   width: 100%;
-  height: 80%;
-  top: 73%;
-  left: 0px;
-  background-color: #fffafa;
+  height: 30%;
+  top: 42%;
+  left: 0%;
   text-align: center;
 }
 
 .title-Especilidades{
   margin-top: 3%;
   font-family: BebasNeue;
-  font-size: 55px;
-  color: black;
+  font-size: 45px;
+  color: white;
+  margin-left: 1px;
 }
 
 .span-title-Especialidades{
-  color:#660505 ;
-  font-size: 35px;
+  color:#7c0404 ;
+}
+
+.Cardapio{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 73%;
+  background-color: black;
 }
