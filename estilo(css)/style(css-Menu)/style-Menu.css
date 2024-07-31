@@ -53,8 +53,26 @@ body{
 .Navegacao{
   position: absolute;
   width: 100%;
-  left: 0px;
-  height: 20%;
-  top: 76%;
+  left: 0%;
+  height: 15%;
+  top: 72%;
   background-color: #270c0c;
+  text-align: center;
+}
+
+.Bnt-Navegacao-Carne {
+  position: absolute;
+  width: 20%;
+  height: 50%;
+  left: 5%;
+  top: 5%;
+  font-size: 20px;
+  color: white;
+  background-image: url('/src/Menu/Nav/picanhaparafundo(copy).webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding-top: 2%;
+  border-radius: 20px;
+  border: 2px solid white;
 }
