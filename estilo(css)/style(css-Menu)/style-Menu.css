@@ -58,17 +58,35 @@ body{
   top: 72%;
   background-color: #270c0c;
   text-align: center;
+  font-family: BebasNeue;
 }
 
 .Bnt-Navegacao-Carne {
   position: absolute;
   width: 20%;
   height: 50%;
-  left: 5%;
+  left: 1%;
   top: 5%;
-  font-size: 20px;
+  font-size: 30px;
+  color: #ffffff;
+  background-image: url('/src/Menu/Nav/b.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding-top: 2%;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.Bnt-Navegacao-Aperitivos {
+  position: absolute;
+  width: 20%;
+  height: 50%;
+  left: 25%;
+  top: 5%;
+  font-size: 30px;
   color: white;
-  background-image: url('/src/Menu/Nav/picanhaparafundo(copy).webp');
+  background-image: url('/src/Menu/Nav/a.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
