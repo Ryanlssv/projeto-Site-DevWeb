@@ -56,14 +56,13 @@ body {
   left: 0%;
   height: 15%;
   top: 72%;
-  background-color: #270c0c;
   text-align: center;
   font-family: BebasNeue;
 }
 
 .Bnt-Navegacao-Carne {
   position: absolute;
-  width: 20%;
+  width: 14%;
   height: 50%;
   left: 1%;
   top: 5%;
@@ -80,13 +79,81 @@ body {
 
 .Bnt-Navegacao-Aperitivos {
   position: absolute;
-  width: 20%;
+  width: 13%;
   height: 50%;
-  left: 25%;
+   left: 18%;
   top: 5%;
   font-size: 30px;
   color: white;
   background-image: url('/src/Menu/Nav/a.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 2%;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.Bnt-Navegacao-Acompanhamentos {
+  position: absolute;
+  width: 14%;
+  height: 50%;
+  left: 34%;
+  top: 5%;
+  font-size: 30px;
+  color: white;
+  background-image: url('/src/Menu/Nav/c.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 2%;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.Bnt-Navegacao-Saladas {
+  position: absolute;
+  width: 13%;
+  height: 50%;
+  left: 51%;
+  top: 5%;
+  font-size: 30px;
+  color: white;
+  background-image: url('/src/Menu/Nav/d.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 2%;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.Bnt-Navegacao-Sobremesa {
+  position: absolute;
+  width: 13%;
+  height: 50%;
+  left: 67%;
+  top: 5%;
+  font-size: 30px;
+  color: white;
+  background-image: url('/src/Menu/Nav/e.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 2%;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.Bnt-Navegacao-Bebidas {
+  position: absolute;
+  width: 13%;
+  height: 50%;
+  left: 83%;
+  top: 5%;
+  font-size: 30px;
+  color: white;
+  background-image: url('/src/Menu/Nav/f.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
