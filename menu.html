@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="./estilo(css)/rodapefinal.css">
   <link rel="shortcut icon" href="./src/logoChurascaria (1)(1).png">
   <link rel="stylesheet" href="./estilo(css)/style(css-Menu)/style-Menu.css">
-  <link rel="stylesheet" href="./estilo(css)/style(css-Menu)/card.css">
   <title>Nosso Menu</title>
   <script src="https://kit.fontawesome.com/02669f3445.js" crossorigin="anonymous"></script>
 </head>
@@ -42,15 +41,16 @@
     </div>
   </div>
 
-  <div class="Navegacao">
-    <a id="" class="Bnt-Navegacao-Carne " href="">Carnes</a>
-    <a id="" class="Bnt-Navegacao-Aperitivos" href="">Aperitivos</a>
-    <a id="" class="Bnt-Navegacao-Acompanhamentos" href="">Acompanhamentos</a>
-    <a id="" class="Bnt-Navegacao-Saladas" href="">Saladas</a>
-    <a id="" class="Bnt-Navegacao-Sobremesa" href="">Sobremesas</a>
-    <a id="" class="Bnt-Navegacao-Bebidas" href="">Bebidas</a>
+  <div id="menu" class="Navegacao">
+    <button onclick="showSection('carnes')" class="Bnt-Navegacao-Carne " href="">Carnes</button>
+    <button onclick="showSection('aperitivos')" class="Bnt-Navegacao-Aperitivos" href="">Aperitivos</button>
+    <button onclick="showSection('acompanhamentos')" class="Bnt-Navegacao-Acompanhamentos" href="">Acompanhamentos</button>
+    <button onclick="showSection('saladas')" class="Bnt-Navegacao-Saladas" href="">Saladas</button>
+    <button onclick="showSection('sobremesas')" class="Bnt-Navegacao-Sobremesa" href="">Sobremesas</button>
+    <button onclick="showSection('bebidas')" class="Bnt-Navegacao-Bebidas" href="">Bebidas</button>
   </div>
 
+  <div id="card-container" class="cardapio-tamanho" ></div>
 
   <!--Criação do footer-->
   <footer class="rodape">
@@ -79,6 +79,3 @@
 
 </html>
 
-<!--<p>
-  A Churascaria é uma churrascaria artesanal que oferece uma ampla variedade de pratos e bebidas, com uma atmosfera aconchegante e sofisticada. Nossa missão é oferecer uma experiência gastronômica única, combinando sabores frescos e texturas exquisitas com uma decoração moderna e acolhedora.
-</p>-->
