@@ -63,7 +63,7 @@ body {
 .Bnt-Navegacao-Carne {
   position: absolute;
   width: 14%;
-  height: 50%;
+  height: 60%;
   left: 1%;
   top: 5%;
   font-size: 30px;
@@ -72,7 +72,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 2%;
+  padding-top: 1%;
   border-radius: 20px;
   border: 2px solid white;
   cursor:pointer;
@@ -81,7 +81,7 @@ body {
 .Bnt-Navegacao-Aperitivos {
   position: absolute;
   width: 13%;
-  height: 50%;
+  height: 60%;
    left: 18%;
   top: 5%;
   font-size: 30px;
@@ -90,7 +90,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 2%;
+  padding-top: 1%;
   border-radius: 20px;
   border: 2px solid white;
   cursor:pointer;
@@ -99,16 +99,16 @@ body {
 .Bnt-Navegacao-Acompanhamentos {
   position: absolute;
   width: 14%;
-  height: 50%;
+  height: 60%;
   left: 34%;
   top: 5%;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   background-image: url('/src/Menu/Nav/c.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 2%;
+  padding-top: 1%;
   border-radius: 20px;
   border: 2px solid white;
   cursor:pointer;
@@ -117,7 +117,7 @@ body {
 .Bnt-Navegacao-Saladas {
   position: absolute;
   width: 13%;
-  height: 50%;
+  height: 60%;
   left: 51%;
   top: 5%;
   font-size: 30px;
@@ -126,7 +126,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 2%;
+  padding-top: 1%;
   border-radius: 20px;
   border: 2px solid white;
   cursor:pointer;
@@ -135,7 +135,7 @@ body {
 .Bnt-Navegacao-Sobremesa {
   position: absolute;
   width: 13%;
-  height: 50%;
+  height: 60%;
   left: 67%;
   top: 5%;
   font-size: 30px;
@@ -144,7 +144,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 2%;
+  padding-top: 1%;
   border-radius: 20px;
   border: 2px solid white;
   cursor:pointer;
@@ -153,7 +153,7 @@ body {
 .Bnt-Navegacao-Bebidas {
   position: absolute;
   width: 13%;
-  height: 50%;
+  height: 60%;
   left: 83%;
   top: 5%;
   font-size: 30px;
@@ -162,7 +162,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 2%;
+  padding-top: 1%;
   border-radius: 20px;
   border: 2px solid white;
   cursor:pointer;
