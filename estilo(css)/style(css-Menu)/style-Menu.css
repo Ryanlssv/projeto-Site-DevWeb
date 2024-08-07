@@ -172,11 +172,11 @@ body {
 .cardapio-tamanho{
   position:absolute;
   background-color:red;
-  width:100%;
+  width:90%;
   height:100%;
   display:flex;
   flex-wrap:wrap;
-  left:0%;
+  left:4.5%;
   top: 90%;
 }
 .card {
