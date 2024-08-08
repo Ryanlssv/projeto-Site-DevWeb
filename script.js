@@ -15,11 +15,11 @@ function closeNav() {
 
 const cardapio = {
     carnes: [
-        { name: 'Picanha', price: 'R$45,00', image: 'link_da_imagem', description: 'Deliciosa picanha suculenta.' },
-        { name: 'Costela', price: 'R$40,00', image: 'link_da_imagem', description: 'Costela assada lentamente.' },
-        { name: 'Maminha', price: 'R$42,00', image: 'link_da_imagem', description: 'Maminha macia e saborosa.' },
-        { name: 'Alcatra', price: 'R$38,00', image: 'link_da_imagem', description: 'Alcatra no ponto certo.' },
-        { name: 'Fraldinha', price: 'R$39,00', image: 'link_da_imagem', description: 'Fraldinha suculenta.' }
+        { name: 'Picanha', price: 'R$45,00', image: './src/Menu/Cad-img/images.jpeg', description: 'Deliciosa picanha suculenta.'},
+        { name: 'Costela', price: 'R$40,00', image: './src/Menu/Cad-img/costela.jpg  ', description: 'Costela assada lentamente.' },
+        { name: 'Maminha', price: 'R$42,00', image: './src/Menu/Cad-img/maminha.jpg', description: 'Maminha macia e saborosa.' },
+        { name: 'Alcatra', price: 'R$38,00', image: './src/Menu/Cad-img/alcatra.jpg', description: 'Alcatra no ponto certo.' },
+        { name: 'Fraldinha', price: 'R$39,00', image: './src/Menu/Cad-img/fraldinha.jpg', description: 'Fraldinha suculenta.' }
     ],
     aperitivos: [
         { name: 'Linguiça', price: 'R$15,00', image: 'link_da_imagem', description: 'Linguiça artesanal.' },
