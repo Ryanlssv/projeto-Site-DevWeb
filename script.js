@@ -1,12 +1,12 @@
 // Este script e para a barra de navegação lateral abrir e fechar
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
 }
 
 // Este script e para a criação dos Cards do cardapio
@@ -15,18 +15,18 @@ function closeNav() {
 
 const cardapio = {
     carnes: [
-        { name: 'Picanha', price: 'R$45,00', image: './src/Menu/Cad-img/images.jpeg', description: 'Deliciosa picanha suculenta.'},
+        { name: 'Picanha', price: 'R$45,00', image: './src/Menu/Cad-img/images.jpeg', description: 'Deliciosa picanha suculenta.' },
         { name: 'Costela', price: 'R$40,00', image: './src/Menu/Cad-img/costela.jpg  ', description: 'Costela assada lentamente.' },
         { name: 'Maminha', price: 'R$42,00', image: './src/Menu/Cad-img/maminha.jpg', description: 'Maminha macia e saborosa.' },
         { name: 'Alcatra', price: 'R$38,00', image: './src/Menu/Cad-img/alcatra.jpg', description: 'Alcatra no ponto certo.' },
         { name: 'Fraldinha', price: 'R$39,00', image: './src/Menu/Cad-img/fraldinha.jpg', description: 'Fraldinha suculenta.' },
-        { name: 'Cupim', price: 'R$42,00', image: 'link_da_imagem', description: 'Cupim assado lentamente.' },
-        { name: 'Filé Mignon', price: 'R$50,00', image: 'link_da_imagem', description: 'Filé mignon ao ponto.' },
-        { name: 'Contra-filé', price: 'R$37,00', image: 'link_da_imagem', description: 'Contra-filé suculento.' },
-        { name: 'Lombo de Porco', price: 'R$33,00', image: 'link_da_imagem', description: 'Lombo de porco assado.' },
-        { name: 'Cordeiro', price: 'R$55,00', image: 'link_da_imagem', description: 'Cordeiro grelhado.' },
-        { name: 'Linguiça', price: 'R$28,00', image: 'link_da_imagem', description: 'Linguiça artesanal grelhada.' },
-        { name: 'Coxa de Frango', price: 'R$25,00', image: 'link_da_imagem', description: 'Coxa de frango suculenta.' }
+        { name: 'Cupim', price: 'R$42,00', image: './src/Menu/Cad-img/Cupim.jpg', description: 'Cupim assado lentamente.' },
+        { name: 'Filé Mignon', price: 'R$50,00', image: './src/Menu/Cad-img/filemion.jpg', description: 'Filé mignon ao ponto.' },
+        { name: 'Contra-filé', price: 'R$37,00', image: './src/Menu/Cad-img/contrafile.jpg', description: 'Contra-filé suculento.' },
+        { name: 'Lombo de Porco', price: 'R$33,00', image: './src/Menu/Cad-img/lomboporc.jpg', description: 'Lombo de porco assado.' },
+        { name: 'Cordeiro', price: 'R$55,00', image: './src/Menu/Cad-img/cordeiro.jpg', description: 'Cordeiro grelhado.' },
+        { name: 'Linguiça', price: 'R$28,00', image: './src/Menu/Cad-img/linguiça.jpg', description: 'Linguiça artesanal grelhada.' },
+        { name: 'Coxa de Frango', price: 'R$25,00', image: './src/Menu/Cad-img/coxa.webp', description: 'Coxa de frango suculenta.' }
     ],
     aperitivos: [
         { name: 'Linguiça', price: 'R$15,00', image: 'link_da_imagem', description: 'Linguiça artesanal.' },
@@ -65,25 +65,25 @@ const cardapio = {
     ]
 };
 function showSection(sectionId) {
-  const cardContainer = document.getElementById('card-container');
-  cardContainer.innerHTML = ''; // Limpa os cards existentes
+    const cardContainer = document.getElementById('card-container');
+    cardContainer.innerHTML = ''; // Limpa os cards existentes
 
-  const items = cardapio[sectionId]; // Pega os itens da seção selecionada
+    const items = cardapio[sectionId]; // Pega os itens da seção selecionada
 
-  // Gera os cards para os itens da seção
-  items.forEach(item => {
-      const card = document.createElement('div');
-      card.classList.add('card');
+    // Gera os cards para os itens da seção
+    items.forEach(item => {
+        const card = document.createElement('div');
+        card.classList.add('card');
 
-      card.innerHTML = `
+        card.innerHTML = `
           <img src="${item.image}" alt="${item.name}">
           <h3>${item.name}</h3>
           <p>${item.description}</p>
           <p style="color:#660505;" ><strong>Preço: ${item.price}</strong></p>
       `;
 
-      cardContainer.appendChild(card);
-  });
+        cardContainer.appendChild(card);
+    });
 }
 
 // Mostra a primeira seção por padrão
