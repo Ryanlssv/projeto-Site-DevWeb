@@ -66,7 +66,7 @@ body {
   left: 1%;
   top: 5%;
   font-size: 30px;
-   background-image: url('/src/Menu/Nav/b.jpg');
+  background-image: url('/src/Menu/Nav/b.jpg');
   color: #ffffff;
   background-size: cover;
   background-position: center;
@@ -74,25 +74,25 @@ body {
   padding-top: 1%;
   border-radius: 20px;
   border: 2px solid white;
-  cursor:pointer;
+  cursor: pointer;
   font-family: BebasNeue;
 }
 
-.Bnt-Navegacao-Carne:hover{
-   color:#660505;
+.Bnt-Navegacao-Carne:hover {
+  color: #660505;
   border: 2px solid #660505;
-   transition: 1.0s;
-   width: 14%;
-   height: 60%;
-   left: 1%;
-   top: 5%;
+  transition: 1.0s;
+  width: 14%;
+  height: 60%;
+  left: 1%;
+  top: 5%;
 }
 
 .Bnt-Navegacao-Aperitivos {
   position: absolute;
   width: 13%;
   height: 60%;
-   left: 18%;
+  left: 18%;
   top: 5%;
   font-size: 30px;
   color: white;
@@ -103,7 +103,7 @@ body {
   padding-top: 1%;
   border-radius: 20px;
   border: 2px solid white;
-  cursor:pointer;
+  cursor: pointer;
   font-family: BebasNeue;
 }
 
@@ -122,7 +122,7 @@ body {
   padding-top: 1%;
   border-radius: 20px;
   border: 2px solid white;
-  cursor:pointer;
+  cursor: pointer;
   font-family: BebasNeue;
 }
 
@@ -141,7 +141,7 @@ body {
   padding-top: 1%;
   border-radius: 20px;
   border: 2px solid white;
-  cursor:pointer;
+  cursor: pointer;
   font-family: BebasNeue;
 }
 
@@ -160,7 +160,7 @@ body {
   padding-top: 1%;
   border-radius: 20px;
   border: 2px solid white;
-  cursor:pointer;
+  cursor: pointer;
   font-family: BebasNeue;
 }
 
@@ -179,34 +179,37 @@ body {
   padding-top: 1%;
   border-radius: 20px;
   border: 2px solid white;
-  cursor:pointer;
+  cursor: pointer;
   font-family: BebasNeue;
 }
 
 /************ Card ************/
-.cardapio-tamanho{
-  position:absolute;
-  width:90%;
-  height:150%;
-  display:flex;
-  flex-wrap:wrap;
-  left:4.5%;
+.cardapio-tamanho {
+  position: absolute;
+  width: 90%;
+  height: 150%;
+  display: flex;
+  flex-wrap: wrap;
+  left: 4.5%;
   top: 90%;
   font-family: BebasNeue;
 }
+
 .card {
   border: 1px solid #ccc;
-  background-color:white;
+  background-color: white;
   border-radius: 8px;
   padding: 16px;
   margin: 34px;
   width: 200px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
 }
+
 .card img {
   width: 100%;
   border-radius: 8px;
 }
+
 .card h3 {
   margin: 10px 0;
 }
