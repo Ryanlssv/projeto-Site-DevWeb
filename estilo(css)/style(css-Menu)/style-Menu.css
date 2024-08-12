@@ -57,7 +57,6 @@ body {
   height: 15%;
   top: 72%;
   text-align: center;
-  font-family: BebasNeue;
 }
 
 .Bnt-Navegacao-Carne {
@@ -67,8 +66,8 @@ body {
   left: 1%;
   top: 5%;
   font-size: 30px;
+   background-image: url('/src/Menu/Nav/b.jpg');
   color: #ffffff;
-  background-image: url('/src/Menu/Nav/b.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,6 +75,22 @@ body {
   border-radius: 20px;
   border: 2px solid white;
   cursor:pointer;
+  font-family: BebasNeue;
+}
+
+.Bnt-Navegacao-Carne:hover{
+   position: absolute;
+   background-color: #f00000;
+   color: #e30202;
+   transition: 1.5s;
+  background-image: url('/src/Menu/Nav/b.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   width: 14%;
+   height: 60%;
+   left: 1%;
+   top: 5%;
 }
 
 .Bnt-Navegacao-Aperitivos {
@@ -94,6 +109,7 @@ body {
   border-radius: 20px;
   border: 2px solid white;
   cursor:pointer;
+  font-family: BebasNeue;
 }
 
 .Bnt-Navegacao-Acompanhamentos {
@@ -112,6 +128,7 @@ body {
   border-radius: 20px;
   border: 2px solid white;
   cursor:pointer;
+  font-family: BebasNeue;
 }
 
 .Bnt-Navegacao-Saladas {
@@ -130,6 +147,7 @@ body {
   border-radius: 20px;
   border: 2px solid white;
   cursor:pointer;
+  font-family: BebasNeue;
 }
 
 .Bnt-Navegacao-Sobremesa {
@@ -148,6 +166,7 @@ body {
   border-radius: 20px;
   border: 2px solid white;
   cursor:pointer;
+  font-family: BebasNeue;
 }
 
 .Bnt-Navegacao-Bebidas {
@@ -166,18 +185,19 @@ body {
   border-radius: 20px;
   border: 2px solid white;
   cursor:pointer;
+  font-family: BebasNeue;
 }
 
 /************ Card ************/
 .cardapio-tamanho{
   position:absolute;
-  background-color:red;
   width:90%;
-  height:100%;
+  height:150%;
   display:flex;
   flex-wrap:wrap;
   left:4.5%;
   top: 90%;
+  font-family: BebasNeue;
 }
 .card {
   border: 1px solid #ccc;

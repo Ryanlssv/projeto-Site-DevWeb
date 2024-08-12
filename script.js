@@ -19,7 +19,14 @@ const cardapio = {
         { name: 'Costela', price: 'R$40,00', image: './src/Menu/Cad-img/costela.jpg  ', description: 'Costela assada lentamente.' },
         { name: 'Maminha', price: 'R$42,00', image: './src/Menu/Cad-img/maminha.jpg', description: 'Maminha macia e saborosa.' },
         { name: 'Alcatra', price: 'R$38,00', image: './src/Menu/Cad-img/alcatra.jpg', description: 'Alcatra no ponto certo.' },
-        { name: 'Fraldinha', price: 'R$39,00', image: './src/Menu/Cad-img/fraldinha.jpg', description: 'Fraldinha suculenta.' }
+        { name: 'Fraldinha', price: 'R$39,00', image: './src/Menu/Cad-img/fraldinha.jpg', description: 'Fraldinha suculenta.' },
+        { name: 'Cupim', price: 'R$42,00', image: 'link_da_imagem', description: 'Cupim assado lentamente.' },
+        { name: 'Filé Mignon', price: 'R$50,00', image: 'link_da_imagem', description: 'Filé mignon ao ponto.' },
+        { name: 'Contra-filé', price: 'R$37,00', image: 'link_da_imagem', description: 'Contra-filé suculento.' },
+        { name: 'Lombo de Porco', price: 'R$33,00', image: 'link_da_imagem', description: 'Lombo de porco assado.' },
+        { name: 'Cordeiro', price: 'R$55,00', image: 'link_da_imagem', description: 'Cordeiro grelhado.' },
+        { name: 'Linguiça', price: 'R$28,00', image: 'link_da_imagem', description: 'Linguiça artesanal grelhada.' },
+        { name: 'Coxa de Frango', price: 'R$25,00', image: 'link_da_imagem', description: 'Coxa de frango suculenta.' }
     ],
     aperitivos: [
         { name: 'Linguiça', price: 'R$15,00', image: 'link_da_imagem', description: 'Linguiça artesanal.' },
@@ -72,7 +79,7 @@ function showSection(sectionId) {
           <img src="${item.image}" alt="${item.name}">
           <h3>${item.name}</h3>
           <p>${item.description}</p>
-          <p><strong>Preço: ${item.price}</strong></p>
+          <p style="color:#660505;" ><strong>Preço: ${item.price}</strong></p>
       `;
 
       cardContainer.appendChild(card);
