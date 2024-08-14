@@ -221,7 +221,7 @@ body {
   height: 150%;
   display: flex;
   flex-wrap: wrap;
-  left: 4.5%;
+  left: 6%;
   top: 90%;
   font-family: BebasNeue;
 }
@@ -230,9 +230,9 @@ body {
   border: 1px solid #ccc;
   background-color: white;
   border-radius: 8px;
-  padding: 16px;
-  margin: 34px;
-  width: 200px;
+  padding: 30px;
+  margin: 35px;
+  width: 205px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
 }
 

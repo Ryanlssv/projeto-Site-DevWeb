@@ -104,9 +104,9 @@ function showSection(sectionId) {
 
         card.innerHTML = `
           <img src="${item.image}" alt="${item.name}">
-          <h3>${item.name}</h3>
-          <p>${item.description}</p>
-          <p style="color:#660505;" ><strong>Preço: ${item.price}</strong></p>
+          <h2>${item.name}</h2>
+          <h3>${item.description}</h3>
+          <h2 style="color:#660505;" ><strong>Preço: ${item.price}</strong></h2>
       `;
 
         cardContainer.appendChild(card);
