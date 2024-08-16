@@ -71,28 +71,32 @@ const cardapio = {
         { name: 'Salada de Espinafre', price: 'R$15,00', image: './src/Menu/Card-img-salada/espinafre.jpg', description: 'Espinafre com molho de iogurte.' }
     ],
     sobremesas: [
-        { name: 'Pudim', price: 'R$10,00', image: 'link_da_imagem', description: 'Pudim de leite condensado.' },
-        { name: 'Brigadeiro', price: 'R$5,00', image: 'link_da_imagem', description: 'Doce de chocolate com granulado.' },
-        { name: 'Mousse de Maracujá', price: 'R$8,00', image: 'link_da_imagem', description: 'Mousse de maracujá refrescante.' },
-        { name: 'Torta de Limão', price: 'R$12,00', image: 'link_da_imagem', description: 'Torta de limão com merengue.' },
-        { name: 'Torta de Limão', price: 'R$12,00', image: 'link_da_imagem29', description: 'Torta de limão com merengue.' },
-        { name: 'Brownie', price: 'R$9,00', image: 'link_da_imagem30', description: 'Brownie de chocolate.' },
-        { name: 'Cheesecake', price: 'R$14,00', image: 'link_da_imagem31', description: 'Cheesecake com calda de frutas.' },
-        { name: 'Petit Gâteau', price: 'R$15,00', image: 'link_da_imagem32', description: 'Bolo de chocolate com sorvete.' },
-        { name: 'Tiramisu', price: 'R$18,00', image: 'link_da_imagem33', description: 'Sobremesa italiana de café e mascarpone.' },
-        { name: 'Pavê', price: 'R$11,00', image: 'link_da_imagem34', description: 'Pavê de chocolate e biscoito.' },
-        { name: 'Gelatina', price: 'R$6,00', image: 'link_da_imagem35', description: 'Gelatina de frutas variadas.' },
-        { name: 'Rocambole', price: 'R$13,00', image: 'link_da_imagem36', description: 'Rocambole de doce de leite.' }
+        { name: 'Pudim', price: 'R$10,00', image: './src/Menu/Card-img-Sobremesa/pudim.jpg', description: 'Pudim de leite condensado.' },
+        { name: 'Brigadeiro', price: 'R$5,00', image: './src/Menu/Card-img-Sobremesa/brigadeiro.jpg', description: 'Doce de chocolate com granulado.' },
+        { name: 'Mousse de Maracujá', price: 'R$8,00', image: './src/Menu/Card-img-Sobremesa/muse.jpg', description: 'Mousse de maracujá refrescante.' },
+        { name: 'Torta de Limão', price: 'R$12,00', image: './src/Menu/Card-img-Sobremesa/tortadelima.webp', description: 'Torta de limão com merengue.' },
+        { name: 'Torta de Limão', price: 'R$12,00', image: './src/Menu/Card-img-Sobremesa/tortadelima.webp', description: 'Torta de limão com merengue.' },
+        { name: 'Brownie', price: 'R$9,00', image: './src/Menu/Card-img-Sobremesa/Brownie.jpg', description: 'Brownie de chocolate.' },
+        { name: 'Cheesecake', price: 'R$14,00', image: './src/Menu/Card-img-Sobremesa/Cheesecake.jpg', description: 'Cheesecake com calda de frutas.' },
+        { name: 'Petit Gâteau', price: 'R$15,00', image: './src/Menu/Card-img-Sobremesa/petit-gateau.webp', description: 'Bolo de chocolate com sorvete.' },
+        { name: 'Tiramisu', price: 'R$18,00', image: './src/Menu/Card-img-Sobremesa/Tiramisu.jpg', description: 'Sobremesa italiana de café e mascarpone.' },
+        { name: 'Pavê', price: 'R$11,00', image: './src/Menu/Card-img-Sobremesa/Pave.jpg', description: 'Pavê de chocolate e biscoito.' },
+        { name: 'Gelatina', price: 'R$6,00', image: './src/Menu/Card-img-Sobremesa/Gelatina.jpg', description: 'Gelatina de frutas variadas.' },
+        { name: 'Rocambole', price: 'R$13,00', image: './src/Menu/Card-img-Sobremesa/Rocambole.jpg', description: 'Rocambole de doce de leite.' }
     ],
     bebidas: [
-        { name: 'Refrigerante', price: 'R$6,00', image: 'link_da_imagem61', description: 'Refrigerante gelado.' },
-        { name: 'Suco de Laranja', price: 'R$8,00', image: 'link_da_imagem62', description: 'Suco de laranja natural.' },
-        { name: 'Água Mineral', price: 'R$4,00', image: 'link_da_imagem66', description: 'Água mineral com ou sem gás.' },
-        { name: 'Café Expresso', price: 'R$5,00', image: 'link_da_imagem67', description: 'Café expresso.' },
-        { name: 'Chá Gelado', price: 'R$7,00', image: 'link_da_imagem68', description: 'Chá gelado de limão.' },
-        { name: 'Milkshake', price: 'R$12,00', image: 'link_da_imagem69', description: 'Milkshake de chocolate ou morango.' },
-        { name: 'Água de Coco', price: 'R$6,00', image: 'link_da_imagem70', description: 'Água de coco natural.' },
-        { name: 'Suco de Abacaxi', price: 'R$8,00', image: 'link_da_imagem71', description: 'Suco de abacaxi com hortelã.' },
+        { name: 'Refrigerante', price: 'R$6,00', image: './src/Menu/Card-img-Bebidas/refri.jpg', description: 'Refrigerante gelado.' },
+        { name: 'Suco de Laranja', price: 'R$8,00', image: './src/Menu/Card-img-Bebidas/sucolara.jpg', description: 'Suco de laranja natural.' },
+        { name: 'Água com gás', price: 'R$,00', image: './src/Menu/Card-img-Bebidas/agua.jpg', description: 'Água mineral com ou sem gás.' },
+        { name: 'Milkshake', price: 'R$12,00', image: './src/Menu/Card-img-Bebidas/Milkshake.jpg', description: 'Milkshake de chocolate ou morango.' },
+        { name: 'Água de Coco', price: 'R$6,00', image: './src/Menu/Card-img-Bebidas/AguadeCoco.jpg', description: 'Água de coco natural.' },
+        { name: 'Suco de Abacaxi', price: 'R$8,00', image: './src/Menu/Card-img-Bebidas/SucodeAbacaxi.jpg', description: 'Suco de abacaxi com hortelã.' },
+        { name: 'Milkshake', price: 'R$12,00', image: './src/Menu/Card-img-Bebidas/Milkshake.jpg', description: 'Milkshake de chocolate ou morango.' },
+        { name: 'Refrigerante', price: 'R$6,00', image: './src/Menu/Card-img-Bebidas/refri.jpg', description: 'Refrigerante gelado.' },
+        { name: 'Suco de Laranja', price: 'R$8,00', image: './src/Menu/Card-img-Bebidas/sucolara.jpg', description: 'Suco de laranja natural.' },
+        { name: 'Milkshake', price: 'R$12,00', image: './src/Menu/Card-img-Bebidas/Milkshake.jpg', description: 'Milkshake de chocolate ou morango.' },
+        { name: 'Água de Coco', price: 'R$6,00', image: './src/Menu/Card-img-Bebidas/AguadeCoco.jpg', description: 'Água de coco natural.' },
+        { name: 'Suco de Abacaxi', price: 'R$8,00', image: './src/Menu/Card-img-Bebidas/SucodeAbacaxi.jpg', description: 'Suco de abacaxi com hortelã.' }
     ]
 };
 function showSection(sectionId) {

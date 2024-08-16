@@ -54,7 +54,7 @@ body {
 .Navegacao {
   position: absolute;
   width: 100%;
-  left: 0%;
+  left: 2%;
   height: 15%;
   top: 72%;
   text-align: center;
@@ -218,7 +218,7 @@ body {
 /************ Card ************/
 .cardapio-tamanho {
   position: absolute;
-  width: 90%;
+  width: 95%;
   height: 150%;
   display: flex;
   flex-wrap: wrap;
