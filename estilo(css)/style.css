@@ -133,9 +133,3 @@ a{
   padding-top: 7px;
   border:2px white solid;
 }
-
-.divider {
-  width: 100%;
-  margin-top: 20px;
-  border-top: 2px solid #ddd; /* Adjust the color and thickness as needed */
-}

@@ -1,0 +1,82 @@
+@media screen and (max-width: 425px) {
+  header {
+  position:absolute;
+  width: 170%;
+  height: 10%;
+  background-color: #000000;
+  left: 0px;
+  top: 0px;
+  }
+
+  #btn-reserva{
+  position: absolute;
+  left: 55%;
+  top: 15px;
+  padding-top: 2px;
+  text-align: center;
+  font-family:BebasNeue;
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  background-color: #660505;
+  border-color: #aeadad;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#btn-reserva:hover{
+  color:#ffffff ;
+  transition: 0.5s;
+  background-color: #383333;
+}
+
+  .sidenav a {
+    font-size: 24px;
+  }
+
+  .logo {
+    width: 70%;
+    left: 30%;
+    top: 10%;
+  }
+
+  .icon-Redes {
+    top: 20px;
+  }
+
+.img-fundo{
+  position:absolute ;
+  width:170%;
+  height:90%;
+  left:0px;
+  top:7%;
+
+}
+
+  .logo{
+  position:absolute;
+  width:64%;
+  left:55%;
+  top:10%;
+
+}
+
+  .slogan{
+  position: absolute;
+  font-size: 40px;
+  height: 8% ;
+  width: 120%;
+  text-align: center;
+  top: 45%;
+  left:25% ;
+  color:#ffffff;
+  font-family:BebasNeue;
+  background-color: black;
+  border-radius: 15px;
+  padding-top: 7px;
+  border:2px white solid;
+}
+
+
+}
+
