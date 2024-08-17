@@ -50,11 +50,42 @@ body {
   margin-left: 1px;
 }
 
+.Home-bnt {
+  position: absolute;
+  left: 5%;
+  top: 10px;
+  padding-top: 2px;
+  font-family:BebasNeue;
+  color: white;
+  width: 80px;
+  background-color: #000000;
+  border-color: #aeadad;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.Home-bnt a {
+  font-size: 20px;
+}
+
+.Home-bnt:hover {
+  transition: 0.5s;
+  background-color: #660505;
+}
+
+.logo-Menu{
+  position:absolute;
+  width:4%;
+  left:47%;
+  top:0.5%;
+
+}
+
 
 .Navegacao {
   position: absolute;
   width: 100%;
-  left: 2%;
+  left: 1%;
   height: 15%;
   top: 72%;
   text-align: center;
@@ -234,7 +265,7 @@ body {
   border-radius: 8px;
   padding: 30px;
   margin: 35px;
-  width: 205px;
+  width: 150px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
 }
 
