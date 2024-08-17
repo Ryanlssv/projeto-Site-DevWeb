@@ -22,6 +22,13 @@
   color: #660505;
 }
 
+.fot-sec{
+  width: 90%; 
+  position: relative; 
+  top: 35%; 
+  left: 4.5%;
+}
+
 #angus{
   position: absolute;
   height: 72% ;
@@ -128,6 +135,14 @@
   left: 1%;
   top:10% ;
   background-color: black;
+}
+
+.iframe{
+  width:90% ;
+  height: 85%;
+  left:4.5% ; 
+  position: absolute; 
+  top: 7% ;
 }
 
 .contato{
