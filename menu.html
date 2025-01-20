@@ -10,8 +10,20 @@
   <link rel="stylesheet" href="./estilo(css)/style(css-Menu)/rodapefinal-menu.css">
   <link rel="shortcut icon" href="./src/logoChurascaria (1)(1).png">
   <link rel="stylesheet" href="./estilo(css)/style(css-Menu)/style-Menu.css">
+  <link rel="stylesheet" href="./estilo(css)/style(css-Menu)/animacaoM.css">
   <title>Nosso Menu</title>
   <script src="https://kit.fontawesome.com/02669f3445.js" crossorigin="anonymous"></script>
+  <div class="carregando" >
+    <span class="pontos"></span>
+    <span class="pontos"></span>
+    <span class="pontos"></span>
+  </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(window).on("load",function(){
+  $(".carregando").fadeOut(1500);
+});
+</script>
 </head>
 
 <body>

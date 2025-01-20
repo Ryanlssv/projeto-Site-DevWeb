@@ -10,11 +10,23 @@
   <link rel="stylesheet" href="./estilo(css)/secao.css">
   <link rel="stylesheet" href="./estilo(css)/rodapefinal.css">
   <link rel="stylesheet" href="./estilo(css)/responsividade.css">
+  <link rel="stylesheet" href="./estilo(css)/animacao.css">
   <!--Ajustar a RESPONSIVIDADE-->
   <!--<link rel="stylesheet" href="./responsivo.css">-->
   <link rel="shortcut icon" href="./src/logoChurascaria (1)(1).png">
   <title>Churrascaria Brasa Viva</title>
   <script src="https://kit.fontawesome.com/02669f3445.js" crossorigin="anonymous"></script>
+  <div class="carregando" >
+    <span class="pontos"></span>
+    <span class="pontos"></span>
+    <span class="pontos"></span>
+  </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(window).on("load",function(){
+  $(".carregando").fadeOut(1500);
+});
+</script>
 </head>
 <!--Referencia: https://barbacoa.com.br/ -->
 <!--Referencia: https://www.costelariatokunfome.com.br/ -->
